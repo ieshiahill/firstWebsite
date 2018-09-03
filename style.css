@@ -1,3 +1,250 @@
-body {
-  
+.contentWrapper {
+    background: lightgray; 
 }
+
+#main {
+    background: pink; 
+}
+
+body {
+    font-size: 
+    font-family:
+    background-color: 
+    padding:
+    margin:
+}
+
+h1 {
+    color:
+    font-size:
+    margin:
+    padding:
+}
+
+h2 {
+    color:
+    font-size:
+    margin:
+    padding:
+}
+
+h3 {
+    color:
+    font-size:
+    margin:
+    padding:
+}
+
+h4 {
+    color:
+    font-size:
+    margin:
+    padding:
+}
+
+ol {
+    font-size:
+    margin:
+    padding:
+}
+
+ol li {
+    margin:
+    padding:
+}
+
+
+.contentWrapper {
+    margin: 
+    max-width:
+    padding:
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+div.clear {
+    clear:both;
+    font-size: 1%
+}
+
+header {
+    padding: 
+    margin:
+    background:
+}
+
+header h1 {
+    font-family:
+    color:
+    font-size:
+    letter-spacing:
+    margin:
+}
+
+header h2 {
+    font-weight:
+    font-size:
+    color:
+    margin:
+    text-transform:
+    letter-spacing:
+}
+
+nav {
+    color: 
+    font-size:
+    letter-spacing:
+    padding:
+    margin:
+}
+
+nav ul { 
+    margin:
+    padding:
+    list-style:
+}
+
+nav li {
+    display:
+    margin:
+}
+
+nav#utilityMenu {
+    float: 
+    margin:
+    padding:
+    background-color:
+    height:
+}
+
+nav#utilityMenu ul li.accountNav a, nav#utilityMenu ul li.accountNav a.visited {
+    color:
+    text-decoration: 
+    display:
+    height:
+    padding:
+    margin:
+    font-size:
+}
+
+nav#utilityMenu ul li.accountNav a.active {
+    background-color:
+}
+
+nav#utilityMenu ul li.accountNav a:hover {
+    background-color:
+    color:
+}
+
+nav#utlityMenu li a, nav#utilityMenu li a:visited {padding: ;}
+nav#utilityMenu ul li.acctNav a:hover {background-color: transparent;}
+nav#utilityMenu ul li input#search {
+    vertical-align: 
+    margin: 
+}
+
+nav#utilityMenu ul li.accountNav::before, nav#utilityMenu ul li input#search::before {
+    content: "| ";
+    color:
+}
+
+section#sidebar {
+    width: 238px;
+    float: right; 
+    display: block;
+    background-color: lightgray;
+    margin: 1.5em 0.3em 1.5 em;
+    padding: 1.7em 0.5em 2.0em 1.7em;
+    border-left: black 3px;
+}
+
+section #main {
+    background-color:black;
+    margin: 0 0 2.0em; 
+    padding:1.5em 0 2.0em 1.5em; 
+    display: inline-block;
+    border-radius: 2em; 
+    box-shadow: 1 px 1px 5px #777;
+}
+
+section div.panel {
+    float: left; 
+    position: relative;   
+    width: 250px;
+    margin: 0 0.5em 2.0em 0.5em; 
+    padding: 1.0em; 
+    background-color:lightgrayc;
+    border: #ccc solid 2px;
+    border-radius: 0.6em;
+    text-align: center;
+}
+
+section div.panel img.artType {
+    width: 100%;
+}
+
+footer {
+    background-color:
+    height:
+    font-size:
+    color:
+    width:
+    text-align:
+    padding:
+}
+
+footer ul#menuFooter {
+    display:
+    list-style:
+    margin:
+    padding:
+}
+
+footer ul li {
+    display:
+    padding:
+    margin:
+}
+
+footer ul li:::before {
+    content: "| ;"
+    padding-right:
+}
+
+footer a, footer a:visited {
+    color:
+    text-decoration:
+}
+
+footer a:hover {
+    color:
+    text-decoration:
+}
+
+button {
+    color:
+    background-color:
+    display:
+    margin:
+    padding:
+    text-transform:
+    text-align: center;
+}
+
+button:hover {
+    background-color:
+    border:
+}
+
+
+
+
+
+
+
