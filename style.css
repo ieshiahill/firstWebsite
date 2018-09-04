@@ -1,9 +1,20 @@
 .contentWrapper {
-    background: lightgray; 
+    background: white; 
+    margin: 
 }
 
 #main {
-    background: pink; 
+    background: rgb(7, 0, 0); 
+    margin: 50px 50px 50px 50px;
+    padding: 10px 10px 10px 10px;
+}
+
+#promoBar {
+    text-align: center;
+    font-weight: bold;
+    background-color: black;
+    margin: 50px 50px 50px 50px;
+    height: 20%;
 }
 
 body {
@@ -11,7 +22,7 @@ body {
     font-family:
     background-color: 
     padding:
-    margin:
+    margin: 50px 50px 50px 50px;
 }
 
 h1 {
@@ -42,20 +53,26 @@ h4 {
     padding:
 }
 
-ol {
+ul {
     font-size:
-    margin:
-    padding:
+    margin: 0;
+    padding: 0; 
+    list-style-type: none;
 }
 
-ol li {
+li {
+    display: inline;
+}
+
+ul li {
     margin:
     padding:
+    diplay: block;
 }
 
 
 .contentWrapper {
-    margin: 
+    margin: 50px 50px 50px 50px
     max-width:
     padding:
 }
@@ -115,6 +132,17 @@ nav li {
     margin:
 }
 
+.banner {
+    width: 100%;
+    display: block;
+}
+
+.banner > banner-image {
+    width: 100%;
+    display: block;
+    padding: 
+}
+
 nav#utilityMenu {
     float: 
     margin:
@@ -159,9 +187,11 @@ section#sidebar {
     float: right; 
     display: block;
     background-color: lightgray;
-    margin: 1.5em 0.3em 1.5 em;
-    padding: 1.7em 0.5em 2.0em 1.7em;
-    border-left: black 3px;
+    margin: 
+}
+
+section sidebar.panel img.artistType {
+    width: auto;
 }
 
 section #main {
@@ -169,7 +199,7 @@ section #main {
     margin: 0 0 2.0em; 
     padding:1.5em 0 2.0em 1.5em; 
     display: inline-block;
-    border-radius: 2em; 
+    border-radius:
     box-shadow: 1 px 1px 5px #777;
 }
 
@@ -179,14 +209,18 @@ section div.panel {
     width: 250px;
     margin: 0 0.5em 2.0em 0.5em; 
     padding: 1.0em; 
-    background-color:lightgrayc;
+    background-color:
     border: #ccc solid 2px;
-    border-radius: 0.6em;
+    border-radius:
     text-align: center;
 }
 
 section div.panel img.artType {
     width: 100%;
+}
+
+.sidebarContent {
+
 }
 
 footer {
