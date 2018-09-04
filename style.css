@@ -1,80 +1,58 @@
-.contentWrapper {
-    background: white; 
-    margin: 
+body {
+    background-color: rgb(238, 252, 252);
 }
 
-#main {
-    background: rgb(7, 0, 0); 
-    margin: 50px 50px 50px 50px;
-    padding: 10px 10px 10px 10px;
+.panel {
+    text-align: left;
+}
+
+.logo {
+    color: black;
+    float: left;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-size: 30px;
+}
+
+h4 {
+    font-family: fantasy;
+    font-size: 15px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif
+    font-size: 10px;
 }
 
 #promoBar {
     text-align: center;
     font-weight: bold;
-    background-color: black;
-    margin: 50px 50px 50px 50px;
-    height: 20%;
-}
-
-body {
-    font-size: 
-    font-family:
-    background-color: 
-    padding:
-    margin: 50px 50px 50px 50px;
-}
-
-h1 {
-    color:
-    font-size:
-    margin:
-    padding:
-}
-
-h2 {
-    color:
-    font-size:
-    margin:
-    padding:
-}
-
-h3 {
-    color:
-    font-size:
-    margin:
-    padding:
-}
-
-h4 {
-    color:
-    font-size:
-    margin:
-    padding:
+    background-color: rgb(215, 227, 241);
+    margin: 
+    height: 20px;
 }
 
 ul {
     font-size:
-    margin: 0;
+    margin: 2% 10% 0 10%;
     padding: 0; 
     list-style-type: none;
 }
 
 li {
     display: inline;
+    border: black;
 }
 
 ul li {
     margin:
     padding:
     diplay: block;
-}
-
-
-.contentWrapper {
-    margin: 50px 50px 50px 50px
-    max-width:
-    padding:
 }
 
 .left {
@@ -92,25 +70,6 @@ div.clear {
 
 header {
     padding: 
-    margin:
-    background:
-}
-
-header h1 {
-    font-family:
-    color:
-    font-size:
-    letter-spacing:
-    margin:
-}
-
-header h2 {
-    font-weight:
-    font-size:
-    color:
-    margin:
-    text-transform:
-    letter-spacing:
 }
 
 nav {
@@ -118,80 +77,68 @@ nav {
     font-size:
     letter-spacing:
     padding:
-    margin:
+    margin: 2% 10% 0 10%;
 }
 
 nav ul { 
-    margin:
-    padding:
-    list-style:
+    border: black;
 }
 
 nav li {
     display:
-    margin:
+}
+
+#searchBar {
+    float: right;
+}
+
+#accountNav {
+    float: right;
+    border: black;
+}
+
+#navPage {
+    display: inline;
+    text-align: center;
+    padding-left: 50ox; 
 }
 
 .banner {
     width: 100%;
     display: block;
+    margin: 0 10 px 0 10 px;
 }
 
 .banner > banner-image {
     width: 100%;
     display: block;
-    padding: 
+    padding: 100%;
 }
 
-nav#utilityMenu {
-    float: 
+#utilityMenu {
+    float: right;
     margin:
     padding:
     background-color:
     height:
 }
 
-nav#utilityMenu ul li.accountNav a, nav#utilityMenu ul li.accountNav a.visited {
-    color:
-    text-decoration: 
-    display:
-    height:
-    padding:
-    margin:
-    font-size:
+#searchBar {
+    float: right;
 }
 
-nav#utilityMenu ul li.accountNav a.active {
-    background-color:
+#sidebarBorder {
+    border-style: thick black;
+    border-width: medium; 
 }
 
-nav#utilityMenu ul li.accountNav a:hover {
-    background-color:
-    color:
-}
-
-nav#utlityMenu li a, nav#utilityMenu li a:visited {padding: ;}
-nav#utilityMenu ul li.acctNav a:hover {background-color: transparent;}
-nav#utilityMenu ul li input#search {
-    vertical-align: 
-    margin: 
-}
-
-nav#utilityMenu ul li.accountNav::before, nav#utilityMenu ul li input#search::before {
-    content: "| ";
-    color:
-}
-
-section#sidebar {
-    width: 238px;
+#sidebar {
+    width: 150px;
     float: right; 
-    display: block;
-    background-color: lightgray;
+    background-color: rgb(215, 227, 241);
     margin: 
-}
-
-section sidebar.panel img.artistType {
-    width: auto;
+    border-style: thick black;
+    border-width: medium; 
 }
 
 section #main {
@@ -210,8 +157,6 @@ section div.panel {
     margin: 0 0.5em 2.0em 0.5em; 
     padding: 1.0em; 
     background-color:
-    border: #ccc solid 2px;
-    border-radius:
     text-align: center;
 }
 
@@ -219,66 +164,12 @@ section div.panel img.artType {
     width: 100%;
 }
 
-.sidebarContent {
-
+.clear {  
 }
 
 footer {
-    background-color:
-    height:
-    font-size:
-    color:
-    width:
-    text-align:
-    padding:
-}
-
-footer ul#menuFooter {
-    display:
-    list-style:
-    margin:
-    padding:
-}
-
-footer ul li {
-    display:
-    padding:
-    margin:
-}
-
-footer ul li:::before {
-    content: "| ;"
-    padding-right:
-}
-
-footer a, footer a:visited {
-    color:
-    text-decoration:
-}
-
-footer a:hover {
-    color:
-    text-decoration:
+    background-color: rgb(215, 227, 241);
 }
 
 button {
-    color:
-    background-color:
-    display:
-    margin:
-    padding:
-    text-transform:
-    text-align: center;
 }
-
-button:hover {
-    background-color:
-    border:
-}
-
-
-
-
-
-
-
